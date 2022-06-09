@@ -14,13 +14,82 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="grid grid-cols-5 gap-x-3.5">
+      <div className="grid grid-cols-5 gap-6">
         <div className="...">
           <Menu />
         </div>
         <div className="col-span-4 mr-6">
           <Search />
+
+          <div className="grid grid-rows-3 gap-6">
+            <div className="grid grid-cols-3 gap-6">
+              <div className="col-span-1 bg-green-200">
+                Giua 1
+                <div className="grid grid-rows-3 gap-6">
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="col-span-1 bg-yellow-200">
+                      giua -giua
+                    </div>
+                    <div className="col-span-1 bg-yellow-200">
+                      giua -giua
+                    </div>
+                  </div>
+
+
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="col-span-1 bg-yellow-200">
+                      giua -giua
+                    </div>
+                    <div className="col-span-1 bg-yellow-200">
+                      giua -giua
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="col-span-1 bg-yellow-200">
+                      giua -giua
+                    </div>
+                    <div className="col-span-1 bg-yellow-200">
+                      giua -giua
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-1 bg-green-200">
+                Giua 2
+              </div>
+              <div className="col-span-1 bg-yellow-200 w-full">
+                Phai
+              </div>
+            </div>
+
+            {/* cot2 */}
+
+            <div className="grid grid-cols-3 gap-6">
+              <div className="col-span-2 bg-green-200">
+                Giua
+              </div>
+              <div className="col-span-1 bg-yellow-200 w-full">
+                Phai
+              </div>
+            </div>
+
+            {/* cot2 */}
+
+            <div className="grid grid-cols-3 gap-6">
+              <div className="col-span-2 bg-green-200">
+                Giua
+              </div>
+              <div className="col-span-1 bg-yellow-200 w-full">
+                Phai
+              </div>
+            </div>
+
+          </div>
+
         </div>
+
+
       </div>
     </div>
   )
