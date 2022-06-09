@@ -1,4 +1,5 @@
 import Business from "./firstContent/business"
+import Event from "./firstContent/event"
 export default function FirstContent() {
     return (
         <div className="grid grid-cols-3 gap-6">
@@ -32,8 +33,8 @@ export default function FirstContent() {
                     </div>
                 </div>
             </div>
-            <div className="col-span-1 bg-green-200">
-                Giua 2
+            <div className="col-span-1 w-full shadow-sm bg-white rounded">
+                <Event />
             </div>
             <div className="col-span-1 w-full shadow-sm bg-white rounded">
                 <Business />
