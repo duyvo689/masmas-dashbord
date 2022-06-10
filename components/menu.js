@@ -8,7 +8,7 @@ import Dashboard from './menu/dashboard';
 
 export default function Menu() {
     return (
-        <menu className="h-screen fixed bg-white top-0 left-0 drop-shadow rounded-l-3xl">
+        <menu className="h-screen fixed bg-white rounded-l-3xl top-0 left-0 shadow">
             {/* LOGO */}
             <Logo />
 

@@ -1,6 +1,6 @@
 export default function Congratulation() {
     return (
-        <div className="bg-white shadow rounded grid grid-cols-2">
+        <div className="grid grid-cols-2">
             <div className="py-5 pl-5">
                 <h3 className="italic font-thin text-gray-400 text-lg">Congratulations Katie!</h3>
                 <p className="text-gray-600 text-sm mt-1 mb-4">Best seller of the month</p>

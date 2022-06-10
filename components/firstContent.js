@@ -8,13 +8,13 @@ export default function FirstContent() {
             <div className="col-span-1">
                 <div className="grid grid-rows-none gap-6">
                     <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-6">
-                        <div className="col-span-2">
+                        <div className="col-span-2 item-container">
                             <Congratulation />
                         </div>
                     </div>
 
                     <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-6">
-                        <div className="col-span-1 bg-white shadow rounded p-5 flex flex-col gap-3">
+                        <div className="item-container col-span-1 p-5 flex flex-col gap-3">
                             <div className="flex justify-between">
                                 <img src="/img/icon-order.svg" alt="" />
                                 <svg width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ export default function FirstContent() {
                             </div>
 
                         </div>
-                        <div className="col-span-1 bg-white shadow rounded p-5 flex flex-col gap-3">
+                        <div className="item-container col-span-1 p-5 flex flex-col gap-3">
                             <p>Sales</p>
                             <div className="">
                                 <h3>482k</h3>
@@ -56,10 +56,10 @@ export default function FirstContent() {
                     </div>
 
                     <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-6">
-                        <div className="col-span-1 bg-yellow-200">
+                        <div className="item-container col-span-1 bg-yellow-200">
                             giua -giua
                         </div>
-                        <div className="col-span-1 bg-white shadow rounded p-5 flex flex-col gap-3">
+                        <div className="item-container col-span-1 p-5 flex flex-col gap-3">
                             <div className="flex justify-between">
                                 <img src="/img/icon-transactions.svg" alt="" />
 
@@ -84,10 +84,10 @@ export default function FirstContent() {
                     </div>
                 </div>
             </div>
-            <div className="col-span-1 auto-rows-min shadow-sm bg-white rounded">
+            <div className="col-span-1 auto-rows-min item-container">
                 <Event />
             </div>
-            <div className="col-span-1 auto-rows-min shadow-sm bg-white rounded">
+            <div className="col-span-1 auto-rows-min item-container">
                 <Business />
             </div>
         </div>

@@ -74,6 +74,9 @@ export default class Graph extends PureComponent {
                     </LineChart>
                 </ResponsiveContainer>
 
+                {/* <XAxis dataKey="name" />
+                    <YAxis /> */}
+
                 <div className="flex justify-between px-6 pb-6 pt-6 items-center">
                     <div className="text-xs text-gray-400">
                         <p>You have done 57.6% more sales.</p>

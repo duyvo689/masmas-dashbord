@@ -11,15 +11,15 @@ export default function Business() {
             <div className="flex gap-5 flex-col">
                 <span className="font-thin text-sm italic text-gray-400">Basic price is $30</span>
                 <div className="flex items-center p-4 bg-white rounded-lg border-indigo-300 border-solid border justify-between">
-                    <input disabled id="disabled-checkbox" type="checkbox" value="" className="w-4 h-4 bg-white rounded border-gray-200 " />
-                    <label htmlFor="disabled-checkbox" className="ml-2 text-xs font-extralight highlight-green">+$30</label>
+                    <input id="" type="checkbox" value="" className="w-4 h-4 bg-white rounded border-gray-200 " />
+                    <label htmlFor="" className="ml-2 text-xs font-extralight highlight-green">+$30</label>
                 </div>
                 <div className="flex items-center p-4 bg-white rounded-lg border-indigo-300 border-solid border justify-between">
-                    <input disabled checked id="disabled-checked-checkbox" type="checkbox" value="" className="w-4 h-4 bg-indigo-100 rounded border-indigo-300 focus:ring-indigo-500" />
+                    <input checked id="disabled-checked-checkbox" type="checkbox" value="" className="w-4 h-4 bg-indigo-500 rounded border-indigo-300 focus:ring-indigo-400" />
                     <label htmlFor="disabled-checked-checkbox" className="ml-2 text-xs font-extralight highlight-indigo">+$75</label>
                 </div>
                 <div className="flex items-center p-4 bg-white rounded-lg border-indigo-300 border-solid border justify-between">
-                    <input disabled id="disabled-checkbox" type="checkbox" value="" className="w-4 h-4 bg-white rounded border-gray-200 " />
+                    <input id="disabled-checkbox" type="checkbox" value="" className="w-4 h-4 bg-white rounded border-gray-200 " />
                     <label htmlFor="disabled-checkbox" className="ml-2 text-xs font-extralight highlight-green">+$125</label>
                 </div>
                 <div className="flex items-center p-4 bg-white rounded-lg border-indigo-300 border-solid border justify-between">

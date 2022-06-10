@@ -4,10 +4,10 @@ import ScoreChart from "./betweenContent/scoreChart"
 export default function Between() {
     return (
         <>
-            <div className="col-span-2 bg-white shadow rounded">
+            <div className="col-span-2 item-container">
                 <FinanceSummary />
             </div>
-            <div className="col-span-1 bg-white shadow rounded">
+            <div className="col-span-1 item-container">
                 <ScoreChart />
             </div>
         </>
