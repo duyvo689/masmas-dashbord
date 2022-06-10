@@ -5,6 +5,7 @@ import Menu from '../components/menu'
 import Search from '../components/search'
 import FirstContent from '../components/firstContent'
 import EndContent from '../components/endContent'
+import Between from '../components/between'
 
 
 export default function Home() {
@@ -28,12 +29,8 @@ export default function Home() {
             {/* cot2 */}
 
             <div className="grid grid-cols-3 row-span-1 gap-6">
-              <div className="col-span-2 bg-green-200">
-                Giua
-              </div>
-              <div className="col-span-1 bg-yellow-200 w-full">
-                Phai2
-              </div>
+              <Between />
+
             </div>
 
             {/* cot2 */}
