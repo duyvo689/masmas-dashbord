@@ -1,7 +1,7 @@
 export default function Tables() {
     return (
         <div className="overflow-x-auto">
-            <div className="w-full flex items-center justify-center bg-white font-thin overflow-hidden">
+            <div className="w-full flex items-center justify-center bg-white font-thin overflow-hidden rounded shadow">
                 <div className="w-full">
                     <div className="bg-white shadow rounded">
                         <table className="w-full table-auto top-0">

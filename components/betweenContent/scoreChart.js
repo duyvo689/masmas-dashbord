@@ -1,6 +1,6 @@
 export default function ScoreChart() {
     return (
-        <div className="flex flex-col items-center justify-center p-6">
+        <div className="flex flex-col items-center justify-center p-6 rounded shadow">
             <p className="text-sm text-gray-500 mt-2">Your score is</p>
             <h3 className="italic font-thin text-gray-400 text-lg">Awesome</h3>
             <div className="">

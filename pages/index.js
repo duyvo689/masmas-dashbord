@@ -6,6 +6,7 @@ import Search from '../components/search'
 import FirstContent from '../components/firstContent'
 import EndContent from '../components/endContent'
 import Between from '../components/betweenContent'
+import Footer from '../components/footer'
 
 
 export default function Home() {
@@ -23,30 +24,19 @@ export default function Home() {
         <div className="col-span-4 mr-6">
           <Search />
           <div className="grid grid-rows-none auto-rows-min gap-6">
-            {/* cot1 */}
+            {/* Hang 1 */}
             <FirstContent />
-
-            {/* cot2 */}
-
+            {/* Hang 2 */}
             <div className="grid grid-cols-3 row-span-1 gap-6">
               <Between />
-
             </div>
-
-            {/* cot2 */}
-
+            {/* Hang 3 */}
             <div className="grid grid-cols-3 row-span-1 gap-6">
               <EndContent />
             </div>
-            <div className="grid grid-cols-3 gap-6 bg-green-500">
-              footer
-            </div>
-
           </div>
-
+          <Footer />
         </div>
-
-
       </div>
     </div>
   )
