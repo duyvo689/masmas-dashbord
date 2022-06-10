@@ -1,3 +1,4 @@
+
 export default function AppPages() {
     return (
         <div className="ml-4 mt-4">
@@ -64,7 +65,6 @@ export default function AppPages() {
                     <path fillRule="evenodd" clipRule="evenodd" d="M1.41936 10L6.57142 5L1.41936 0L0.142853 1.23883L4.01841 5L0.142853 8.76117L1.41936 10Z" fill="black" fillOpacity="0.1" />
                 </svg>
             </div>
-
         </div>
     )
 }

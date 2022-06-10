@@ -8,10 +8,10 @@ import Dashboard from './menu/dashboard';
 
 export default function Menu() {
     return (
-        <menu className="h-screen fixed bg-white rounded-l-3xl top-0 left-0 shadow">
+
+        <menu className="z-50 h-screen fixed hidden lg:block bg-white rounded-l-3xl top-0 left-0 shadow with-menu">
             {/* LOGO */}
             <Logo />
-
             <div className="overflow-y-auto h-full">
                 {/* DASHBOARD & LAYOUT */}
                 <Dashboard />
