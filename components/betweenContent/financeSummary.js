@@ -1,6 +1,6 @@
 export default function FinanceSummary() {
     return (
-        <div className="grid grid-row-3 gap-10 p-5">
+        <div className="grid grid-row-3 gap-10 p-6">
             <div className="flex justify-between">
                 <span>
                     <h3 className="italic font-thin text-gray-400 text-lg">Finance Summary</h3>

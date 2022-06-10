@@ -1,4 +1,5 @@
-import FinanceSummary from "./between/financeSummary"
+import FinanceSummary from "./betweenContent/financeSummary"
+import ScoreChart from "./betweenContent/scoreChart"
 
 export default function Between() {
     return (
@@ -6,8 +7,8 @@ export default function Between() {
             <div className="col-span-2 bg-white shadow rounded">
                 <FinanceSummary />
             </div>
-            <div className="col-span-1 bg-yellow-200 w-full">
-                Phai2
+            <div className="col-span-1 bg-white shadow rounded">
+                <ScoreChart />
             </div>
         </>
     )
