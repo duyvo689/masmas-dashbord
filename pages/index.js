@@ -40,11 +40,11 @@ export default function Home() {
             {/* Hang 1 */}
             <FirstContent />
             {/* Hang 2 */}
-            <div className="grid grid-cols-3 row-span-1 gap-4">
+            <div className="grid md:grid-cols-3 grid-cols-1 row-span-1 gap-4">
               <Between />
             </div>
             {/* Hang 3 */}
-            <div className="grid grid-cols-3 row-span-1 gap-4">
+            <div className="grid md:grid-cols-3 grid-cols-1 row-span-1 gap-4">
               <EndContent />
             </div>
           </div>

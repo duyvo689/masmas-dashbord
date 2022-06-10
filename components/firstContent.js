@@ -4,7 +4,7 @@ import Congratulation from "./firstContent/congratulation"
 
 export default function FirstContent() {
     return (
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid md:grid-cols-3 grid-cols-2 gap-4">
             <div className="col-span-1">
                 <div className="grid grid-rows-none gap-6">
                     <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-4">
@@ -101,7 +101,7 @@ export default function FirstContent() {
             <div className="col-span-1 auto-rows-min item-container">
                 <Event />
             </div>
-            <div className="col-span-1 auto-rows-min item-container">
+            <div className="md:col-span-1 md:block auto-rows-min item-container hidden">
                 <Business />
             </div>
         </div>
