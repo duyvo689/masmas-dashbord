@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="">
                 <p>Masmas Admin ©</p>
             </div>
-            <div className=" flex gap-3 cursor-pointer">
+            <div className="flex gap-3 cursor-pointer cursor-pointer">
                 <a href="#">Upgrade</a>
                 <a href="#">More Themes</a>
                 <a href="#">Support</a>
