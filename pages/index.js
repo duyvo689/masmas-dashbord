@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Menu from '../components/menu'
 import Search from '../components/search'
 import FirstContent from '../components/firstContent'
+import EndContent from '../components/endContent'
 
 
 export default function Home() {
@@ -20,13 +21,13 @@ export default function Home() {
         </div>
         <div className="col-span-4 mr-6">
           <Search />
-          <div className="grid grid-rows-3 gap-6">
+          <div className="grid grid-rows-none auto-rows-min gap-6">
             {/* cot1 */}
             <FirstContent />
 
             {/* cot2 */}
 
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-3 row-span-1 gap-6">
               <div className="col-span-2 bg-green-200">
                 Giua
               </div>
@@ -37,13 +38,11 @@ export default function Home() {
 
             {/* cot2 */}
 
-            <div className="grid grid-cols-3 gap-6">
-              <div className="col-span-2 bg-green-200">
-                Giua
-              </div>
-              <div className="col-span-1 bg-yellow-200 w-full">
-                Phai3
-              </div>
+            <div className="grid grid-cols-3 row-span-1 gap-6">
+              <EndContent />
+            </div>
+            <div className="grid grid-cols-3 gap-6 bg-green-500">
+              footer
             </div>
 
           </div>
