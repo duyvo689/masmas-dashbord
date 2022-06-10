@@ -4,6 +4,9 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    transitionProperty: {
+      'left': 'left'
+    },
     // borderRadius: {
     //   '5xl': '2.5rem',
     // },

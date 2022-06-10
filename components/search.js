@@ -16,7 +16,7 @@ const SearchBar = (props) => {
     return (
         <div className="items-center my-3 bg-white rounded-lg flex w-full p-1.5">
             {/* Button menu */}
-            <div className="z-50 lg:hidden" onClick={props.showMenu}>
+            <div className="z-30 lg:hidden" onClick={props.showMenu}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>

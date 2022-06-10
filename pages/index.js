@@ -32,7 +32,10 @@ export default function Home() {
 
       <div className="grid gap-4 lg:grid-cols-5 grid-cols-1 lg:ml-auto ml-6">
         <div className=''>
-          <Menu isMenu={isMenu} />
+          <Menu
+            isMenu={isMenu}
+            showMenu={showMenu}
+          />
         </div>
         <div className="col-span-4 mr-6">
           <Search showMenu={showMenu} />
