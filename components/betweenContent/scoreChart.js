@@ -36,7 +36,7 @@ export default class ScoreChart extends PureComponent {
                     <h3 className="italic font-thin text-gray-400 text-lg">Awesome</h3>
 
                     <ResponsiveContainer >
-                        <div className="w-full h-48 relative mt-2 flex items-center justify-center">
+                        <div className="w-full h-44 relative mt-2 flex items-center justify-center">
                             <PieChart width={400} height={400} onMouseEnter={this.onPieEnter}>
                                 <Pie
                                     startAngle={220}
@@ -59,7 +59,7 @@ export default class ScoreChart extends PureComponent {
                     </ResponsiveContainer>
                     <div className="relative items-center justify-center flex flex-col bottom-0">
                         <p className="text-sm text-gray-400">Your score is based on the last</p>
-                        <p className="text-sm text-gray-600 font-normal mt-2 mb-3">287 Transactions</p>
+                        <p className="text-sm text-gray-600 font-normal mt-1 mb-2">287 Transactions</p>
                         <div className="btn">View my Account</div>
                     </div>
                 </div >

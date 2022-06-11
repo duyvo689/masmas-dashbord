@@ -28,7 +28,7 @@ export default function Event() {
 
             <div className="mt-8 p-6">
                 <p href="url" className="font-thin text-gray-500 italic">How To Excel In A Technical…</p>
-                <div className="mt-3 flex flex-wrap gap-2">
+                <div className="mt-3 flex gap-2">
                     <span className="highlight-indigo uppercase text-xs">Technical</span>
                     <span className="highlight-indigo uppercase text-xs">Account</span>
                     <span className="highlight-indigo uppercase text-xs">Excel</span>
@@ -43,7 +43,7 @@ export default function Event() {
                     </div>
                     <div className="btn">Join Now</div>
                 </div>
-                <div className="block mt-9 divide-slate-400 divide-solid divide-y">
+                <div className="block xl:mt-9 mt-0 divide-slate-400 divide-solid divide-y">
                     <div className=""></div>
                     <div className="flex justify-between pt-2">
                         <div className="flex gap-10">

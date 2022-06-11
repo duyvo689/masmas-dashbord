@@ -6,15 +6,13 @@ export default function FirstContent(props) {
     return (
         <div className="grid md:grid-cols-3 grid-cols-2 gap-4">
             <div className="col-span-1">
-                <div className="grid grid-rows-none gap-4">
-                    <div className="grid grid-cols-2 row-span-1 gap-4">
-                        <div className="col-span-2 item-container">
-                            <Congratulation />
-                        </div>
+                <div className="flex flex-col gap-4">
+                    <div className="item-container">
+                        <Congratulation />
                     </div>
 
                     {/* Order + Sales */}
-                    <div className="grid grid-cols-2 row-span-1 gap-4">
+                    <div className="grid grid-cols-2 gap-4">
                         {/* Order */}
                         <div className="item-container col-span-1 p-5 flex flex-col gap-2">
                             <div className="flex justify-between">
@@ -37,7 +35,7 @@ export default function FirstContent(props) {
                         </div>
 
                         {/* Sales */}
-                        <div className="item-container col-span-1 p-5 flex flex-col gap-3">
+                        <div className="item-container p-5 flex flex-col gap-3">
                             <p className="text-gray-500 text-sm">Sales</p>
                             <div className="">
                                 <h3 className="text-gray-400 italic font-thin text-xl">482k</h3>
@@ -58,10 +56,10 @@ export default function FirstContent(props) {
                     </div>
 
                     {/* Expenses + Transactions*/}
-                    <div className="grid grid-cols-2 row-span-1 gap-4">
+                    <div className="grid grid-cols-2 gap-4">
 
                         {/* Expenses */}
-                        <div className="relative item-container col-span-1 pt-5">
+                        <div className="relative item-container pt-5">
                             <h3 className="text-gray-500 pl-5 text-sm">Expenses</h3>
                             <img className="m-auto w-full" src="./img/chart.png" alt="" />
                             <div className="w-44 flex items-center justify-center text-center flex-col absolute 
@@ -73,7 +71,7 @@ export default function FirstContent(props) {
                         </div>
 
                         {/* Transactions */}
-                        <div className="item-container col-span-1 p-5 flex flex-col gap-2">
+                        <div className="item-container  p-5 flex flex-col gap-2">
                             <div className="flex justify-between">
                                 <img src="/img/icon-transactions.svg" alt="" />
                                 <svg className="cursor-pointer" width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,10 +94,10 @@ export default function FirstContent(props) {
                     </div>
                 </div>
             </div>
-            <div className="col-span-1 item-container">
+            <div className=" item-container">
                 <Event />
             </div>
-            <div className="md:col-span-1 md:block item-container hidden">
+            <div className="md:block item-container hidden">
                 <Business />
             </div>
         </div>

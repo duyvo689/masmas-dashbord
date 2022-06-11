@@ -8,7 +8,7 @@ export default function Business() {
                 </svg>
             </div>
             <p className="text-sm font-normal text-gray-500 my-3">Here, i focus ona range of items and featured that we use in life without them</p>
-            <div className="flex gap-5 flex-col">
+            <div className="flex xl:gap-5 gap-2 flex-col">
                 <span className="font-thin text-sm italic text-gray-400">Basic price is $30</span>
                 <div className="flex items-center p-4 bg-white rounded-lg border-indigo-300 border-solid border justify-between">
                     <input id="" type="checkbox" value="" className="cursor-pointer w-4 h-4 rounded accent-indigo-500 focus:accent-indigo-500" />
