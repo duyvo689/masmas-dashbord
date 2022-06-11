@@ -19,7 +19,7 @@ export default function Menu(props) {
                 <Logo />
                 <div className="overflow-y-auto h-full">
                     {/* DASHBOARD & LAYOUT */}
-                    <Dashboard showMenu={props.showMenu} />
+                    <Dashboard showMenu={props.showMenu} isMenu={props.showMenu} />
 
                     {/* APP & PAGES */}
                     <AppPages />

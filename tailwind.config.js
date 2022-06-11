@@ -7,6 +7,7 @@ module.exports = {
     transitionProperty: {
       'left': 'left'
     },
+
     // borderRadius: {
     //   '5xl': '2.5rem',
     // },
