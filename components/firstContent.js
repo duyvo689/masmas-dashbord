@@ -2,24 +2,24 @@ import Business from "./firstContent/business"
 import Event from "./firstContent/event"
 import Congratulation from "./firstContent/congratulation"
 
-export default function FirstContent() {
+export default function FirstContent(props) {
     return (
         <div className="grid md:grid-cols-3 grid-cols-2 gap-4">
             <div className="col-span-1">
-                <div className="grid grid-rows-none gap-6">
-                    <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-4">
+                <div className="grid grid-rows-none gap-4">
+                    <div className="grid grid-cols-2 row-span-1 gap-4">
                         <div className="col-span-2 item-container">
                             <Congratulation />
                         </div>
                     </div>
 
                     {/* Order + Sales */}
-                    <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-4">
+                    <div className="grid grid-cols-2 row-span-1 gap-4">
                         {/* Order */}
                         <div className="item-container col-span-1 p-5 flex flex-col gap-2">
                             <div className="flex justify-between">
                                 <img src="/img/icon-order.svg" alt="" />
-                                <svg width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className="cursor-pointer" width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M2.43787 5.25C1.47537 5.25 0.687866 6.0375 0.687866 7C0.687866 7.9625 1.47537 8.75 2.43787 8.75C3.40037 8.75 4.18787 7.9625 4.18787 7C4.18787 6.0375 3.40037 5.25 2.43787 5.25ZM2.43787 0C1.47537 0 0.687866 0.7875 0.687866 1.75C0.687866 2.7125 1.47537 3.5 2.43787 3.5C3.40037 3.5 4.18787 2.7125 4.18787 1.75C4.18787 0.7875 3.40037 0 2.43787 0ZM2.43787 10.5C1.47537 10.5 0.687866 11.2875 0.687866 12.25C0.687866 13.2125 1.47537 14 2.43787 14C3.40037 14 4.18787 13.2125 4.18787 12.25C4.18787 11.2875 3.40037 10.5 2.43787 10.5Z" fill="#435971" />
                                     <path fillRule="evenodd" clipRule="evenodd" d="M2.43787 5.25C1.47537 5.25 0.687866 6.0375 0.687866 7C0.687866 7.9625 1.47537 8.75 2.43787 8.75C3.40037 8.75 4.18787 7.9625 4.18787 7C4.18787 6.0375 3.40037 5.25 2.43787 5.25ZM2.43787 0C1.47537 0 0.687866 0.7875 0.687866 1.75C0.687866 2.7125 1.47537 3.5 2.43787 3.5C3.40037 3.5 4.18787 2.7125 4.18787 1.75C4.18787 0.7875 3.40037 0 2.43787 0ZM2.43787 10.5C1.47537 10.5 0.687866 11.2875 0.687866 12.25C0.687866 13.2125 1.47537 14 2.43787 14C3.40037 14 4.18787 13.2125 4.18787 12.25C4.18787 11.2875 3.40037 10.5 2.43787 10.5Z" fill="white" fillOpacity="0.3" />
                                 </svg>
@@ -59,15 +59,14 @@ export default function FirstContent() {
                     </div>
 
                     {/* Expenses + Transactions*/}
-                    <div className="grid grid-cols-2 auto-rows-min row-span-1 gap-4">
+                    <div className="grid grid-cols-2 row-span-1 gap-4">
 
                         {/* Expenses */}
                         <div className="relative item-container col-span-1 pt-5">
                             <h3 className="text-gray-500 pl-5 text-sm">Expenses</h3>
-                            <img src="./img/expenses.png" alt="" />
+                            <img className="m-auto w-full" src="./img/chart.png" alt="" />
                             <div className="w-44 flex items-center justify-center text-center flex-col absolute 
                             -translate-y-2/4 -translate-x-2/4 top-2/3 left-2/4
-
                             ">
                                 <p className='text-gray-400 font-thin italic text-xl'>78%</p>
                                 <p className='font-thin text-xs text-gray-500 px-2'>$21k Expenses more than last month</p>
@@ -78,7 +77,7 @@ export default function FirstContent() {
                         <div className="item-container col-span-1 p-5 flex flex-col gap-2">
                             <div className="flex justify-between">
                                 <img src="/img/icon-transactions.svg" alt="" />
-                                <svg width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg className="cursor-pointer" width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M2.43787 5.25C1.47537 5.25 0.687866 6.0375 0.687866 7C0.687866 7.9625 1.47537 8.75 2.43787 8.75C3.40037 8.75 4.18787 7.9625 4.18787 7C4.18787 6.0375 3.40037 5.25 2.43787 5.25ZM2.43787 0C1.47537 0 0.687866 0.7875 0.687866 1.75C0.687866 2.7125 1.47537 3.5 2.43787 3.5C3.40037 3.5 4.18787 2.7125 4.18787 1.75C4.18787 0.7875 3.40037 0 2.43787 0ZM2.43787 10.5C1.47537 10.5 0.687866 11.2875 0.687866 12.25C0.687866 13.2125 1.47537 14 2.43787 14C3.40037 14 4.18787 13.2125 4.18787 12.25C4.18787 11.2875 3.40037 10.5 2.43787 10.5Z" fill="#435971" />
                                     <path fillRule="evenodd" clipRule="evenodd" d="M2.43787 5.25C1.47537 5.25 0.687866 6.0375 0.687866 7C0.687866 7.9625 1.47537 8.75 2.43787 8.75C3.40037 8.75 4.18787 7.9625 4.18787 7C4.18787 6.0375 3.40037 5.25 2.43787 5.25ZM2.43787 0C1.47537 0 0.687866 0.7875 0.687866 1.75C0.687866 2.7125 1.47537 3.5 2.43787 3.5C3.40037 3.5 4.18787 2.7125 4.18787 1.75C4.18787 0.7875 3.40037 0 2.43787 0ZM2.43787 10.5C1.47537 10.5 0.687866 11.2875 0.687866 12.25C0.687866 13.2125 1.47537 14 2.43787 14C3.40037 14 4.18787 13.2125 4.18787 12.25C4.18787 11.2875 3.40037 10.5 2.43787 10.5Z" fill="white" fillOpacity="0.3" />
                                 </svg>
@@ -98,10 +97,10 @@ export default function FirstContent() {
                     </div>
                 </div>
             </div>
-            <div className="col-span-1 auto-rows-min item-container">
+            <div className="col-span-1 item-container">
                 <Event />
             </div>
-            <div className="md:col-span-1 md:block auto-rows-min item-container hidden">
+            <div className="md:col-span-1 md:block item-container hidden">
                 <Business />
             </div>
         </div>

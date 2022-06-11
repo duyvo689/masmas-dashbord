@@ -7,10 +7,10 @@ import Dashboard from './menu/dashboard';
 
 
 export default function Menu(props) {
+
     return (
         <>
-
-            <div className={props.isMenu ? `bg-black fixed cursor-pointer opacity-40 visible rounded-3xl` : `hidden opacity-0`}
+            <div className={props.isMenu ? `z-40 bg-black fixed cursor-pointer opacity-40 visible rounded-3xl h-full w-full` : `hidden opacity-0`}
                 onClick={props.showMenu}
             ></div>
 
@@ -19,7 +19,7 @@ export default function Menu(props) {
                 <Logo />
                 <div className="overflow-y-auto h-full">
                     {/* DASHBOARD & LAYOUT */}
-                    <Dashboard />
+                    <Dashboard showMenu={props.showMenu} />
 
                     {/* APP & PAGES */}
                     <AppPages />

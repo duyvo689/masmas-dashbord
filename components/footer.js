@@ -5,10 +5,10 @@ export default function Footer() {
                 <p>Masmas Admin ©</p>
             </div>
             <div className="flex gap-3 cursor-pointer cursor-pointer">
-                <a href="#">Upgrade</a>
-                <a href="#">More Themes</a>
-                <a href="#">Support</a>
-                <a href="#">Contact</a>
+                <a className="hover:text-slate-300" href="#">Upgrade</a>
+                <a className="hover:text-slate-300" href="#">More Themes</a>
+                <a className="hover:text-slate-300" href="#">Support</a>
+                <a className="hover:text-slate-300" href="#">Contact</a>
             </div>
         </div>
     )

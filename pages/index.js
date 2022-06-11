@@ -19,7 +19,6 @@ export default function Home() {
 
   let showMenu = () => {
     setIsMenu(!isMenu)
-    console.log("click roi")
   }
 
   return (
@@ -30,7 +29,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="grid gap-4 lg:grid-cols-5 grid-cols-1 lg:ml-auto ml-6">
+      <div className="grid gap-4 lg:grid-cols-5 grid-cols-1 lg:ml-auto ml-5">
         <div className=''>
           <Menu
             isMenu={isMenu}

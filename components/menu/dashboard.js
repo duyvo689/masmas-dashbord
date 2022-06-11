@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
 
-export default function Dashboard() {
+export default function Dashboard(props) {
 
     let [isItem, setIsItem] = useState(false)
     let showItem = () => {
@@ -35,7 +35,7 @@ export default function Dashboard() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-6 gap-2 items-center px-3.5 p-2.5 mr-3.5 group hover:bg-indigo-100 rounded-lg">
+            <div className="grid grid-cols-6 gap-2 items-center px-3.5 p-2.5 mr-3.5 group hover:bg-indigo-100 rounded-lg" onClick={props.showMenu}>
                 <svg className="group-hover:fill-indigo-500 fill-gray-400" width="18" fill="#435971" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd" d="M16 0H2C0.897 0 0 0.897 0 2V16C0 17.103 0.897 18 2 18H16C17.103 18 18 17.103 18 16V2C18 0.897 17.103 0 16 0ZM16 2L16.001 6H12H10H2V2H16ZM2 8H10V16H2V8ZM12 16V8H16.001L16.002 16H12Z" />
                 </svg>

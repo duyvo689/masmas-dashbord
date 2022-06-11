@@ -10,12 +10,13 @@ export default function Tables() {
                                 <th className="py-3 px-7 text-left">Category</th>
                                 <th className="py-3 px-7 text-left">Payment</th>
                                 <th className="py-3 px-4 text-left">Order Status</th>
-                                <th className="py-3 px-7 text-left">Actions</th>
+                                <th className="py-3 px-4 text-left">Actions</th>
                             </tr>
                         </thead>
                         <tbody className="text-gray-600 text-xs font-thin">
+
                             <tr className="border-b border-gray-200 hover:bg-gray-100 cursor-pointer">
-                                <td className="py-3 px-6 text-left whitespace-nowrap">
+                                <td className="py-3 pl-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
                                             <img className="w-7 h-7" src="./img/phone-oneplus.png" />
@@ -56,7 +57,7 @@ export default function Tables() {
                             </tr>
 
                             <tr className="border-b border-gray-200 hover:bg-gray-100 cursor-pointer">
-                                <td className="py-3 px-6 text-left whitespace-nowrap">
+                                <td className="py-3 pl-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
                                             <img className="w-7 h-7" src="./img/magic-mouse.png" />
@@ -97,7 +98,7 @@ export default function Tables() {
                             </tr>
 
                             <tr className="border-b border-gray-200 hover:bg-gray-100 cursor-pointer">
-                                <td className="py-3 px-6 text-left whitespace-nowrap">
+                                <td className="py-3 pl-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
                                             <img className="w-7 h-7" src="./img/imac.png" />
@@ -138,7 +139,7 @@ export default function Tables() {
                             </tr>
 
                             <tr className="border-b border-gray-200 hover:bg-gray-100 cursor-pointer">
-                                <td className="py-3 px-6 text-left whitespace-nowrap">
+                                <td className="py-3 pl-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
                                             <img className="w-7 h-7" src="./img/note10.png" />
@@ -220,7 +221,7 @@ export default function Tables() {
                             </tr>
 
                             <tr className="border-b border-gray-200 hover:bg-gray-100 cursor-pointer">
-                                <td className="py-3 px-6 text-left whitespace-nowrap">
+                                <td className="py-3 pl-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
                                             <img className="w-7 h-7" src="./img/iphone11.png" />
@@ -261,7 +262,7 @@ export default function Tables() {
                             </tr>
 
                             <tr className="border-b border-gray-200 hover:bg-gray-100 cursor-pointer">
-                                <td className="py-3 px-6 text-left whitespace-nowrap">
+                                <td className="py-3 pl-6 text-left whitespace-nowrap">
                                     <div className="flex items-center">
                                         <div className="mr-2">
                                             <img className="w-7 h-7" src="./img/logitech-mouse.png" />

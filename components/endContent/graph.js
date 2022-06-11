@@ -82,7 +82,7 @@ export default class Graph extends PureComponent {
                         <p>You have done 57.6% more sales.</p>
                         <p className='leading-8'>Check your new badge in your profile.</p>
                     </div>
-                    <img src="./img/icon-next.svg" alt="" />
+                    <img className='cursor-pointer' src="./img/icon-next.svg" alt="" />
                 </div>
             </>
         );
