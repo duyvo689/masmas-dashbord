@@ -11,7 +11,7 @@ export default function Event() {
                         <p className="">07 Sep 2021 at 10:30 AM</p>
                     </div>
                 </div>
-                <svg className="mt-2 cursor-pointer hover:fill-slate-700" width="14" height="8" viewBox="0 0 14 8" fill="#8592A3" xmlns="http://www.w3.org/2000/svg">
+                <svg className="mt-2 cursor-pointer hover:fill-slate-700 transform hover:scale-110" width="14" height="8" viewBox="0 0 14 8" fill="#8592A3" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd" d="M12.2656 0L7 4.82292L1.73436 0L0 1.58854L7 8L14 1.58854L12.2656 0Z" />
                 </svg>
 
